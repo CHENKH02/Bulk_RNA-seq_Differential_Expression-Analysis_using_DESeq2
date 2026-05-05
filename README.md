@@ -63,6 +63,18 @@ To move from gene lists to biological meaning, over-representation analysis is p
 
 ## Results
 
+### PCA Plot
+![PCA](pca.png)
+
+### Sample Distance Heatmap
+![Distance Heatmap](distance_heatmap.png)
+
+### Volcano Plot
+![Volcano](volcano.png)
+
+### Pathway Enrichment Analysis
+![ORA](ora.png)
+
 The analysis identified a set of genes significantly differentially expressed between wildtype and silenced samples, including both up-regulated and down-regulated genes.
 
 Exploratory analysis showed that samples cluster according to condition, indicating a strong transcriptional effect.
