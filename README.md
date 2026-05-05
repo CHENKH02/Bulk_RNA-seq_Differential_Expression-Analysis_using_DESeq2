@@ -66,14 +66,22 @@ To move from gene lists to biological meaning, over-representation analysis is p
 ### PCA Plot
 ![PCA](pca.DESeq2.png)
 
+*Samples were separated clearly according to wildtype and silenced groups along PC1*
+
 ### Sample Distance Heatmap
 ![Distance Heatmap](distance_heatmap.png)
+
+*The sample distance heatmap shows clear clustering of samples according to condition, indicating strong similarity within groups and distinct global expression differences between wildtype and silenced samples.*
 
 ### Volcano Plot
 ![Volcano](volcano.png)
 
+*up-regulated and down-regulated genes distributed according to fold change and statistical significance.*
+
 ### Pathway Enrichment Analysis
 ![ORA](ora.DESeq2.png)
+
+*Pathway enrichment analysis reveals significant enrichment of immune, inflammatory, and cell-cycle-related Hallmark pathways among the differentially expressed genes, suggesting major transcriptional changes associated with the silencing condition.*
 
 The analysis identified a set of genes significantly differentially expressed between wildtype and silenced samples, including both up-regulated and down-regulated genes.
 
