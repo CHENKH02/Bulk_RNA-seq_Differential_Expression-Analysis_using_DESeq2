@@ -39,7 +39,7 @@ Pathway enrichment analysis (ORA, KEGG)
 
 **1. Input data and experimental design**
 
-The analysis starts with two key inputs: a count matrix and a metadata table. The count matrix contains raw gene expression values, where each row is a gene and each column is a sample. The metadata describes each sample, particularly which condition it belongs to. A crucial step here is ensuring that the order of samples in the count matrix matches the metadata, so that each sample is correctly labeled. The condition variable is then defined as a factor, with silenced set as the reference, which determines how fold changes will be interpreted later.
+The analysis starts with two key inputs, a count matrix and a metadata table. The count matrix contains raw gene expression values, where each row is a gene and each column is a sample. The metadata describes each sample, particularly which condition it belongs to. A crucial step here is ensuring that the order of samples in the count matrix matches the metadata, so that each sample is correctly labeled. The condition variable is then defined as a factor, with silenced set as the reference, which determines how fold changes will be interpreted later.
 
 **2. Building the DESeq2 model**
 
@@ -64,7 +64,7 @@ To move from gene lists to biological meaning, over-representation analysis is p
 ## Results
 
 ### PCA Plot
-![PCA](pca.png)
+![PCA](pca.DESeq2.png)
 
 ### Sample Distance Heatmap
 ![Distance Heatmap](distance_heatmap.png)
@@ -73,7 +73,7 @@ To move from gene lists to biological meaning, over-representation analysis is p
 ![Volcano](volcano.png)
 
 ### Pathway Enrichment Analysis
-![ORA](ora.png)
+![ORA](ora.DESeq2.png)
 
 The analysis identified a set of genes significantly differentially expressed between wildtype and silenced samples, including both up-regulated and down-regulated genes.
 
