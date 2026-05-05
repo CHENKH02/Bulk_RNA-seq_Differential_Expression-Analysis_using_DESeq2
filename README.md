@@ -83,11 +83,4 @@ To move from gene lists to biological meaning, over-representation analysis is p
 
 *Pathway enrichment analysis reveals significant enrichment of immune, inflammatory, and cell-cycle-related Hallmark pathways among the differentially expressed genes, suggesting major transcriptional changes associated with the silencing condition.*
 
-The analysis identified a set of genes significantly differentially expressed between wildtype and silenced samples, including both up-regulated and down-regulated genes.
-
-Exploratory analysis showed that samples cluster according to condition, indicating a strong transcriptional effect.
-
-Pathway enrichment analysis revealed that differentially expressed genes are associated with specific biological pathways, providing insight into the functional impact of the silencing condition.
-
-
 
