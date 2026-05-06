@@ -1,7 +1,7 @@
 # Bulk-RNA-seq-Differential-Expression-Analysis-using-DESeq2
 
 ## Project overview
-This project follows a standard bulk RNA-seq differential expression analysis pipeline, aiming to identify genes that change expression between wildtype and silenced condition. And check if the differentially expressed genes are enriched in specific pathways, helping to interpret functional consequences of the condition difference.
+This project - within the "computational approaches for OMICS" class (Biomedical Omics degree, University of Milan, 2025-2026) by Prof Matteo Cereda (https://github.com/ceredamatteo-lab) -follows a standard bulk RNA-seq differential expression analysis pipeline, aiming to identify genes that change expression between wildtype and silenced condition. And check if the differentially expressed genes are enriched in specific pathways, helping to interpret functional consequences of the condition difference.
 
 ## Project Aim
 The main aim of this analysis is to:
@@ -83,4 +83,6 @@ To move from gene lists to biological meaning, over-representation analysis is p
 
 *Pathway enrichment analysis reveals significant enrichment of immune, inflammatory, and cell-cycle-related Hallmark pathways among the differentially expressed genes, suggesting major transcriptional changes associated with the silencing condition.*
 
-
+## Contributors
+- Main developer: Kehan Chen
+- Supervisor: Mariachiara Grieco
